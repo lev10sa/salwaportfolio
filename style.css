@@ -124,6 +124,10 @@ p {
   display: none !important;
 }
 
+.active {
+  color: darkkhaki;
+}
+
 @media only screen and (max-width: 600px) {
   #e {
     width: 100%;
