@@ -7,6 +7,7 @@
 a {
   cursor: pointer;
   text-decoration: none;
+  color: #7f461b;
 }
 
 h1,
@@ -124,8 +125,9 @@ p {
   display: none !important;
 }
 
-.active {
-  color: darkkhaki;
+.act {
+  color: #7f461b !important;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
@@ -211,10 +213,7 @@ p {
     display: inline-block;
     padding: 10px 10px;
     font-size: 8pt;
-  }
-
-  #footer a:hover {
-    color: darkkhaki;
+    color: #000;
   }
 
   #footer i {
@@ -271,13 +270,14 @@ p {
 
   #a div a {
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 20px;
     color: #eee;
     background: #000;
     margin-top: 0.5rem;
+    margin-right: 10px;
     border-radius: 10px;
-    font-weight: bold;
     text-decoration: none;
+    font-size: 12pt;
   }
 
   #b {
@@ -418,11 +418,21 @@ p {
 }
 
 .container {
-  width: 85% !important;
+  width: 90% !important;
   height: auto;
   display: block;
   overflow: hidden;
   margin: auto;
+}
+
+.cont {
+  width: 100% !important;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+  text-align: center;
+  margin: 10% 0px;
 }
 
 @media only screen and (min-width: 601px) {
@@ -502,10 +512,7 @@ p {
     font-size: 8pt;
     text-align: center;
     margin: 35px auto;
-  }
-
-  #footer a:hover {
-    color: darkkhaki;
+    color: #000;
   }
 
   #footer i {
@@ -527,7 +534,7 @@ p {
   }
 
   #a .right {
-    width: 35%;
+    width: 55%;
     height: auto;
     display: inline-block;
     overflow: hidden;
@@ -541,7 +548,7 @@ p {
   }
 
   #a .left {
-    width: 55%;
+    width: 35%;
     height: auto;
     display: inline-block;
     overflow: hidden;
@@ -551,12 +558,14 @@ p {
 
   #a div a {
     display: inline-block;
-    padding: 15px 25px;
+    padding: 10px 20px;
     color: #eee;
     background: #000;
     margin-top: 1.5rem;
+    margin-right: 10px;
     border-radius: 10px;
-    font-weight: bold;
+    text-decoration: none;
+    font-size: 12pt;
   }
 
   #a div img {
