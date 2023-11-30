@@ -266,6 +266,7 @@ p {
     margin: 1.25rem auto !important;
     display: block;
     text-align: left;
+    font-size: 11pt;
   }
 
   #a div a {
@@ -277,7 +278,7 @@ p {
     margin-right: 10px;
     border-radius: 10px;
     text-decoration: none;
-    font-size: 12pt;
+    font-size: 11pt;
   }
 
   #b {
