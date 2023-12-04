@@ -217,8 +217,7 @@ p {
   }
 
   #footer i {
-    font-size: 20pt;
-    margin: 5px 5px;
+    font-size: 16pt;
   }
 
   #a div {
@@ -229,8 +228,8 @@ p {
   }
 
   #a .right {
-    min-height: 35vh;
-    padding-top: 40px;
+    min-height: 40vh;
+    padding-top: 2rem;
     padding-bottom: 100px;
     background: #fff;
     border-top-right-radius: 30px;
@@ -244,7 +243,6 @@ p {
   #a div img {
     width: 70%;
     height: auto;
-    margin-top: 25px;
     text-align: center;
     display: block;
     border-right: 2px solid #000;
@@ -252,7 +250,6 @@ p {
     border-top: 2px solid #000;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 20px;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
   }
@@ -419,7 +416,7 @@ p {
 }
 
 .container {
-  width: 90% !important;
+  width: 85% !important;
   height: auto;
   display: block;
   overflow: hidden;
