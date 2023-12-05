@@ -228,7 +228,8 @@ p {
   }
 
   #a .right {
-    min-height: 40vh;
+    height: auto;
+    min-height: 20vh;
     padding-top: 2rem;
     padding-bottom: 115px;
     background: #fff;
